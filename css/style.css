@@ -1,16 +1,17 @@
-body
+body {
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
+  padding-top: 110px;
   margin: 0 auto;
   width: 60%;
 }
@@ -20,17 +21,28 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+/* example class belongs to h1 in nav */
+.example {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
 }
 
+/*first six div elements */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+/* last three div elements */
+.asgnmnt {
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
